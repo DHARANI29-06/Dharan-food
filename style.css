@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+}
+
+header {
+    background: #7b1e1e;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+
+.menu-btn {
+    text-decoration: none;
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.overlay h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.overlay p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-btn {
+    text-decoration: none;
+    background: #ff9800;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.about, .specials {
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2,
+.specials h2 {
+    color: #7b1e1e;
+    margin-bottom: 20px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.food-card {
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.food-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-card h3 {
+    padding: 15px;
+    color: #7b1e1e;
+}
+
+footer {
+    background: #7b1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
