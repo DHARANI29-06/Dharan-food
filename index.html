@@ -1,64 +1,114 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dharu's Restaurant</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dharus Restaurant</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <!-- Navbar -->
     <header>
-        <nav>
-            <h1 class="logo">🍛 Dharu's Restaurant</h1>
-            <a href="menu.html" class="menu-btn">View Menu</a>
+        <nav class="navbar">
+            <h1 class="logo">🍛 Dharus Restaurant</h1>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="menu.html" class="menu-btn">Menu</a></li>
+            </ul>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
-        <div class="overlay">
-            <h2>Welcome to Dharu's Restaurant</h2>
-            <p>Experience Authentic South Indian Taste</p>
-            <a href="menu.html" class="order-btn">Explore Menu</a>
+        <div class="hero-content">
+            <h2>Authentic South Indian Taste</h2>
+            <p>
+                Fresh, traditional and delicious South Indian dishes
+                made with love and authentic flavours.
+            </p>
+
+            <a href="menu.html" class="hero-btn">
+                Explore Menu
+            </a>
         </div>
     </section>
 
-    <section class="about">
-        <h2>About Us</h2>
-        <p>
-            Dharu's Restaurant serves fresh and traditional South Indian foods
-            prepared with authentic ingredients and rich flavours. Enjoy crispy dosa,
-            soft idly, tasty pongal, and delicious poori in a warm and welcoming atmosphere.
-        </p>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-container">
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900"
+                    alt="Restaurant Food">
+            </div>
+
+            <div class="about-text">
+                <h2>Welcome to Dharus Restaurant</h2>
+
+                <p>
+                    We serve delicious and authentic South Indian food
+                    with traditional taste and fresh ingredients.
+                    From crispy dosa to soft idly, tasty pongal
+                    and full meals, we bring homemade flavour to your plate.
+                </p>
+
+                <div class="details">
+                    <div class="box">
+                        <h3>📍 Location</h3>
+                        <p>Chennai</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>🕒 Timing</h3>
+                        <p>7 AM - 10 PM</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>⭐ Special</h3>
+                        <p>South Indian Meals</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <section class="specials">
+    <!-- Special Dishes -->
+    <section class="special-section">
         <h2>Our Specials</h2>
 
-        <div class="food-container">
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500" alt="Dosa">
+        <div class="special-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1630383249896-424e482df921?w=700">
                 <h3>Dosa</h3>
             </div>
 
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500" alt="Idly">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700">
                 <h3>Idly</h3>
             </div>
 
-            <div class="food-card">
-                <img src="https://images.unsplash.com/photo-1630383249896-424e482df921?w=500" alt="South Indian Food">
-                <h3>Traditional Meals</h3>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=700">
+                <h3>Meals</h3>
             </div>
+
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>📍 Chennai | 🕒 7 AM - 10 PM</p>
-        <p>© 2026 Dharu's Restaurant</p>
+        <h3>Dharus Restaurant</h3>
+        <p>Authentic South Indian Food</p>
+        <p>© 2026 All Rights Reserved</p>
     </footer>
 
 </body>
 </html>
-
